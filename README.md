@@ -23,12 +23,12 @@ Tips:
 
 - If you use the ***composer*** to manage project dependencies, run the following command in your project's root directory:
 
-        composer require bleeld/driver-aliossv2
+        composer require bleeld/driver-alioss-v2
 
    You can also declare the dependency on Alibaba Cloud OSS SDK for PHP in the `composer.json` file.
 
         "require": {
-            "bleeld/driver-aliossv2": "2.7.0"
+            "bleeld/driver-alioss-v2": "2.7.0"
         }
 
    Then run `composer install` to install the dependency. After the Composer Dependency Manager is installed, import the dependency in your PHP code: 
@@ -37,7 +37,7 @@ Tips:
 
 - Download the SDK source code, and introduce the `autoload.php` file under the SDK directory to your code: 
 
-        require_once './vendor/bleeld/driver-aliossv2/autoload.php';
+        require_once './vendor/bleeld/driver-alioss-v2/autoload.php';
 
 ## Quick use
 
